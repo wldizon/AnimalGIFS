@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Animals</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="container">Animal GIF's</div>
+    </header>
+    <br>
+    <br>
+    <!--This div is where the inputs will get put into to load the images again-->
+    <div id="animalButtons">
+
+    </div>
+    <br>
+    <!--This is where you enter the animal information into the text box-->
+    <form id="animal-form">
+      <label id="addAnimalText" form='animal-input'>Add an animal:</label>
+      <input type="text" id="animal-input"><br><br>
+
+      <input class ="button" id="addAnimal" type="submit" value="Submit">
+      <input class ="button" id="clearButton" type="submit" value="Clear">
+    </form>
+    <img src="assets/images/PoweredBy_200px-White_HorizText.png">
+    <br>
+    <!--This is the div where all the images along with their rating will appear-->
+    <div id="animals">
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <footer>
+      <div class="container">Copyright &copy; 2017 Warren Dizon</div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/main.js"></script>
+  </body>
+</html>

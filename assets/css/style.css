@@ -1,0 +1,93 @@
+header{
+  font-family: 'Roboto Thin', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  background-color: #3399ff;
+  text-align: center;
+  color: white;
+  border-top: 20px solid #3399ff;
+  border-bottom: 20px solid #3399ff;
+  margin-top: -8px;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+body {
+  background-color: #EEEEEE;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+#addAnimalText {
+  font-family: 'Roboto', sans-serif;
+}
+
+.animal {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: #3399ff;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: "Open Sans",sans-serif;
+  border-radius: 10px;
+}
+
+#addAnimal {
+  background-color: #3399ff;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: "Open Sans",sans-serif;
+  border-radius: 10px;
+}
+
+#animals {
+  display:inline-block;
+}
+
+button {
+  background-color: #3399ff;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: "Open Sans",sans-serif;
+  border-radius: 10px;
+}
+
+footer{
+  position:relative;
+  font-family: 'Roboto Thin', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: #3399ff;
+  text-align: center;
+  color: white;
+  border-top: 30px solid #3399ff;
+  border-bottom: 30px solid #3399ff;
+  margin-left:-8px;
+  margin-right: -8px;
+}
